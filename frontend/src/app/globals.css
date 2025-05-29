@@ -1,0 +1,17 @@
+.swal2-dark {
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: gray;
+  }
+  
+  .swal2-confirm-button {
+    background-color: white;
+    color: black !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+    padding: 6px 20px !important;
+  }
+
+
+  
+ 

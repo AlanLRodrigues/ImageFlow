@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px; /* Reduzi o padding */
+  background-color:#1F1F1F;
+  color: #ffffff;
+  box-shadow:#1F1F1F;
+  border-bottom: 2px solid #1F1F1F;
+  border-radius: 0 0 10px 10px; /* Cantos inferiores arredondados menores */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px; /* Reduzi o tamanho da logo */
+  height: auto;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 35px; /* Reduzi o espaçamento entre os links */
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navLink {
+  color: #ffffff;
+  font-size: 1rem; /* Diminuí o tamanho da fonte */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navLink:hover {
+  color: #d6dbd6;
+  transform: scale(1.05);
+}
+
+.navLink:active {
+  color: #ecffed;
+}
+
+.Home {
+  padding: 8px;
+  color: #f3f3f3;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s;
+  text-decoration: none;
+}
+
+.Home:hover {
+  color: #dce7dc;
+  transform: scale(1.05);
+}
+
+.Home:active {
+  color: #eaebea;
+}

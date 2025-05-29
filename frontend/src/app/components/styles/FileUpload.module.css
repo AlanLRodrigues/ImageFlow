@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#logout-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px; /* Mantive o padding que estava bom */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px; /* Mantive o tamanho da fonte */
+    margin-bottom: 30px;
+    width: auto; /* Ajustei para o botão ter o tamanho necessário */
+    min-width: 120px; /* Defini uma largura mínima para garantir que não fique muito pequeno */
+    text-align: center; /* Centralizei o texto */
+    transition: background-color 0.3s ease;
+}
+
+#logout-button:hover {
+    background-color: #e53935;
+}
+form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+#imageGallery img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

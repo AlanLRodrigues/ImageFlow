@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 
-const jwt_key = 'alanlimagatinho123'
+const jwt_key = 'your_key'
 
 exports.UserAuth = (req, res, next) => {
     const token = req.cookies.token

@@ -25,7 +25,7 @@ O sistema permite que usuários criem contas, façam login e gerenciem suas pró
 
 Projeto desenvolvido em equipe por:
 
-- **Alan de Lima Rodrigues**
+- **Alan de Lima Rodrigues**  
   [GitHub](https://github.com/AlanLRodrigues)
 
 - **Daniel Freire de Sousa**  

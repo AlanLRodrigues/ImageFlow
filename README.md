@@ -72,7 +72,7 @@ The system allows users to create accounts, log in, and manage their own images,
 
 Project developed as a team by:
 
-- **Alan de Lima Rodrigues**
+- **Alan de Lima Rodrigues**  
   [GitHub](https://github.com/AlanLRodrigues)
 
 - **Daniel Freire de Sousa**  
